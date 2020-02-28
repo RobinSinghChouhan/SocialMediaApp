@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034505768043",
+    "firebase_url": "https://testibm-c77a8.firebaseio.com",
+    "project_id": "testibm-c77a8",
+    "storage_bucket": "testibm-c77a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034505768043:android:0d6e9c8c54cfe4a45c352e",
+        "android_client_info": {
+          "package_name": "com.example.testibm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034505768043-uudjt5v9ktutat97elltamrt6sgacf82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhLrHQf2fEckZSCzx5WTskN6cd5sgglvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034505768043-uudjt5v9ktutat97elltamrt6sgacf82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
