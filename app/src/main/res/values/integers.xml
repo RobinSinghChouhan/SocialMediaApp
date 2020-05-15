@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="btn_comment_view">1</integer>
+    <integer name="btn_comment_pos">2</integer>
+    <integer name="btn_like_view">3</integer>
+    <integer name="btn_like_pos">4</integer>
+    <integer name="btn_follow_view">5</integer>
+    <integer name="btn_follow_pos">6</integer>
+    <integer name="btn_like_button_display_view">7</integer>
+    <integer name="btn_like_button_pos">8</integer>
+</resources>
