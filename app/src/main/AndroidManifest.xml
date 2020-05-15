@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testibm">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/applogoblackwhite"
@@ -9,16 +11,21 @@
         android:roundIcon="@drawable/applogoblackwhite"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen"
-            android:theme="@style/SplashScreen">
+        <activity android:name=".chatActivity"></activity>
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".UserListPage" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".AddCommentActivity" />
+        <activity android:name=".AddPostPage" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SignIn"/>
     </application>
 
 </manifest>

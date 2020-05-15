@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCommentActivity"
+    android:background="@color/black">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <Button
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:id="@+id/backButton"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST_USER"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caption"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/listViewComments"
+        android:textColor="#ffffff"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Enter Comment"
+        android:textColorHint="#444444"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAddComment"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:text="POST"
+        android:textColor="#03A9F4"
+        android:layout_weight="1"/>
+</LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1034505768043-go9d4eqhnmn59hf38tgjvf0u8vmctk3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testibm",
+            "certificate_hash": "fa736ee51b27f762f63ff7f1490eafc7e313c26f"
+          }
+        },
+        {
           "client_id": "1034505768043-uudjt5v9ktutat97elltamrt6sgacf82.apps.googleusercontent.com",
           "client_type": 3
         }
